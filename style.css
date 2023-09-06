@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.356);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.315);
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+section #myLabel{
+    font-size: 70px;
+}
+div#btns button{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+div#btns button:hover{
+    cursor: pointer;
+    background-color: palegreen;
+    transform: translateY(3px);
+}
